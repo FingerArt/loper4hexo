@@ -2,9 +2,9 @@
 
 {% block title %}{{ config.title }}{% endblock %}
 
-{% block body %}
-i am body to.
-{% for post in page.posts %}
-{{post}}
-{% endfor %}
+{% block containter %}
+	{% for post in page.posts %}
+		<a href="{{ post.canonical_path }}">{{ post.title }}</a>
+		</br>
+	{% endfor %}
 {% endblock %}

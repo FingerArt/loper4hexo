@@ -5,8 +5,16 @@
 	<title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-{% block body %}
-	i am body.
+{% block header %}
+	Header
+{% endblock %}
+
+{% block containter %}
+	Containter
+{% endblock %}
+
+{% block footer %}
+	Footer
 {% endblock %}
 </body>
 </html>
