@@ -35,3 +35,11 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+# Assets
+css: css
+js: js
+images: images
+
+# Theme version
+version: 0.0.1

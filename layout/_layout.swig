@@ -3,18 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{% block title %}{% endblock %}</title>
+	{% include "_partial/head.swig" %}
 </head>
 <body>
-{% block header %}
-	Header
-{% endblock %}
+	<header id="header" class="header">
+		Header
+	</header>
 
-{% block containter %}
-	Containter
-{% endblock %}
+	<main id="main">
+		<div class="containter">
+			{% block containter %} Containter {% endblock %}
+		</div>
+	</main>
 
-{% block footer %}
-	Footer
-{% endblock %}
+	<footer id="footer" class="footer">
+		{% block footer %} Footer {% endblock %}
+	</footer>
 </body>
 </html>

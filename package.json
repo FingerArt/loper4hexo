@@ -1,0 +1,25 @@
+{
+  "name": "hexo-theme-loper",
+  "version": "0.0.1",
+  "description": "Elegant theme for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FingerArt/loper4hexo.git"
+  },
+  "keywords": [
+    "Loper"
+  ],
+  "author": "FingerArt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FingerArt/loper4hexo/issues"
+  },
+  "homepage": "https://github.com/FingerArt/loper4hexo#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
